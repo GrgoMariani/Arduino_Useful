@@ -1,3 +1,6 @@
+#ifndef __EEPROM_STUFF_H__
+#define __EEPROM_STUFF_H__
+
 #include <EEPROM.h>
 
 
@@ -36,3 +39,5 @@ struct EEPROM_STUFF
         return false;
     }
 };
+
+#endif//__EEPROM_STUFF_H__
